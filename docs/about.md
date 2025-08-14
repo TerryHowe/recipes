@@ -48,4 +48,4 @@ This is an open collection of recipes. Feel free to contribute by:
 
 ## License
 
-The recipes and content in this collection are shared for educational and personal use.
+This project is licensed under the MIT License - see the LICENSE file in the repository root for details.
