@@ -11,6 +11,7 @@ nav:
   - Recipes:
     - Getting Started: recipes/getting-started.md
     - Chocolate Chip Cookies: recipes/chocolate-chip-cookies.md
+    - Peach Jam: recipes/peach-jam.md
   - About: about.md
 
 markdown_extensions:
