@@ -2,6 +2,8 @@
 
 A static website powered by MkDocs containing a collection of recipes and cooking guides.
 
+Website provided by [Github Pages](https://terryhowe.github.io/recipes/)
+
 ## Quick Start
 
 1. Install dependencies:
