@@ -11,9 +11,6 @@ SITE_DIR := site
 HOST := 127.0.0.1
 PORT := 8000
 
-# Check if mkdocs is available
-MKDOCS_AVAILABLE := $(shell command -v $(MKDOCS) 2> /dev/null)
-
 # Default target
 .DEFAULT_GOAL := help
 
@@ -31,47 +28,26 @@ help: ## Display this help message
 
 install: ## Install Python dependencies
 	@echo "Installing dependencies..."
-	@if $(PIP) install -r requirements.txt; then \
-		echo "✓ Dependencies installed successfully via pip"; \
-	else \
-		echo "⚠ pip install failed (likely network issue), trying apt fallback..."; \
-		if command -v apt >/dev/null 2>&1; then \
-			sudo apt update && sudo apt install -y mkdocs && \
-			echo "✓ MkDocs installed via apt (basic functionality available)"; \
-		else \
-			echo "✗ Failed to install dependencies. Please install manually."; \
-			exit 1; \
-		fi; \
-	fi
+	$(PIP) install -r requirements.txt
 
 deps: install ## Alias for install
 
-build: ## Build the static documentation site
+build: install ## Build the static documentation site
 	@echo "Building documentation..."
-	@if [ -z "$(MKDOCS_AVAILABLE)" ]; then \
-		echo "✗ MkDocs not found. Run 'make install' first."; \
-		exit 1; \
-	fi
 	$(MKDOCS) build
 	@echo "✓ Documentation built successfully in $(SITE_DIR)/"
 
-build-strict: ## Build with strict mode (exits on warnings)
+build-strict: install ## Build with strict mode (exits on warnings)
 	@echo "Building documentation with strict mode..."
-	@if [ -z "$(MKDOCS_AVAILABLE)" ]; then \
-		echo "✗ MkDocs not found. Run 'make install' first."; \
-		exit 1; \
-	fi
 	$(MKDOCS) build --strict
 	@echo "✓ Documentation built successfully with strict mode"
 
 serve: ## Start the development server with live reload
 	@echo "Starting development server at http://$(HOST):$(PORT)"
 	@echo "Press Ctrl+C to stop the server"
-	@if [ -z "$(MKDOCS_AVAILABLE)" ]; then \
-		echo "✗ MkDocs not found. Run 'make install' first."; \
-		exit 1; \
-	fi
-	$(MKDOCS) serve --dev-addr $(HOST):$(PORT)
+	$(MKDOCS) serve -o --dev-addr $(HOST):$(PORT)
+
+server: serve ## Alias for serve
 
 watch: serve ## Alias for serve
 
@@ -107,18 +83,10 @@ info: ## Show project information
 rebuild: clean build ## Clean and rebuild the documentation
 	@echo "✓ Complete rebuild finished"
 
-serve-clean: clean ## Clean build and serve (pure build, then serve)
-	@if [ -z "$(MKDOCS_AVAILABLE)" ]; then \
-		echo "✗ MkDocs not found. Run 'make install' first."; \
-		exit 1; \
-	fi
+serve-clean: clean install ## Clean build and serve (pure build, then serve)
 	$(MKDOCS) serve --clean --dev-addr $(HOST):$(PORT)
 
-serve-all: ## Serve on all network interfaces (0.0.0.0)
+serve-all: install ## Serve on all network interfaces (0.0.0.0)
 	@echo "Starting development server accessible from any IP at http://0.0.0.0:$(PORT)"
 	@echo "Press Ctrl+C to stop the server"
-	@if [ -z "$(MKDOCS_AVAILABLE)" ]; then \
-		echo "✗ MkDocs not found. Run 'make install' first."; \
-		exit 1; \
-	fi
 	$(MKDOCS) serve --dev-addr 0.0.0.0:$(PORT)
