@@ -6,6 +6,30 @@ Website provided by [Github Pages](https://terryhowe.github.io/recipes/)
 
 ## Quick Start
 
+### Using Make (Recommended)
+
+1. Install dependencies:
+   ```bash
+   make install
+   ```
+
+2. Serve the site locally:
+   ```bash
+   make serve
+   ```
+
+3. Build the static site:
+   ```bash
+   make build
+   ```
+
+4. See all available commands:
+   ```bash
+   make help
+   ```
+
+### Manual Setup
+
 1. Install dependencies:
    ```bash
    pip install -r requirements.txt
@@ -21,12 +45,24 @@ Website provided by [Github Pages](https://terryhowe.github.io/recipes/)
    mkdocs build
    ```
 
-## Adding Recipes
+## Development
 
-1. Create a new markdown file in the `docs/` directory
+### Available Make Targets
+
+- `make install` - Install Python dependencies (with apt fallback)
+- `make build` - Build the static documentation site
+- `make serve` - Start development server with live reload
+- `make clean` - Remove generated site files
+- `make check` - Validate the documentation build
+- `make info` - Show project information and available recipes
+- `make help` - Display all available commands
+
+### Adding Recipes
+
+1. Create a new markdown file in the `docs/recipes/` directory
 2. Write your recipe using markdown formatting
 3. Update the navigation in `mkdocs.yml` if needed
-4. Build and test your changes
+4. Build and test your changes with `make build` and `make serve`
 
 ## Structure
 
