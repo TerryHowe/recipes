@@ -1,4 +1,3 @@
 mkdocs>=1.6.0
 mkdocs-gen-files
-mkdocs-literate-nav  
-mkdocs-awesome-pages-plugin
+mkdocs-literate-nav

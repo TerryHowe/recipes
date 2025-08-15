@@ -14,8 +14,8 @@ recipes_dir = docs_dir / "recipes"
 
 # Generate navigation for recipes
 if recipes_dir.exists():
-    with mkdocs_gen_files.open("nav_recipes.md", "w") as nav_file:
-        nav_file.write("# Auto-Generated Recipe Navigation\n\n")
+    with mkdocs_gen_files.open("index.md", "w") as nav_file:
+        nav_file.write("# Recipe Collection\n\n")
         
         # Sort and add recipe files
         recipe_files = sorted(recipes_dir.glob("*.md"))
@@ -25,4 +25,4 @@ if recipes_dir.exists():
             nav_file.write(f"* [{title}](recipes/{recipe_file.name})\n")
 
     # Set edit path for the generated file
-    mkdocs_gen_files.set_edit_path("nav_recipes.md", "gen_nav.py")
+    mkdocs_gen_files.set_edit_path("index.md", "generate_index.py")
