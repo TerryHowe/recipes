@@ -6,6 +6,13 @@ site_author: TerryHowe
 theme: 
   name: mkdocs
 
+plugins:
+  - awesome-pages
+  - gen-files:
+      scripts:
+        - gen_nav.py
+  - literate-nav
+
 nav:
   - Home: index.md
   - Recipes:
