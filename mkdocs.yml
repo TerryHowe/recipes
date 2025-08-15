@@ -4,7 +4,7 @@ repo_url: https://github.com/TerryHowe/recipes
 site_author: TerryHowe
 
 theme: 
-  name: mkdocs
+  name: readthedocs
 
 edit_uri: edit/main/docs/
 
