@@ -6,22 +6,7 @@ site_author: TerryHowe
 theme: 
   name: mkdocs
 
-plugins:
-  - awesome-pages
-  - gen-files:
-      scripts:
-        - gen_nav.py
-  - literate-nav
-
-nav:
-  - Home: index.md
-  - Recipes:
-    - Getting Started: recipes/getting-started.md
-    - Breakfast Sausage: recipes/breakfast-sausage.md
-    - Italian Sausage: recipes/italian-sausage.md
-    - Chocolate Chip Cookies: recipes/chocolate-chip-cookies.md
-    - Peach Jam: recipes/peach-jam.md
-  - About: about.md
+edit_uri: edit/main/docs/
 
 markdown_extensions:
   - admonition
