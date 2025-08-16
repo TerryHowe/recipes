@@ -1,12 +1,12 @@
-# Chocolate Chip Cookies
+# NESTLE TOLL HOUSE Chocolate Chip Cookies
 
-A classic chocolate chip cookie recipe that's perfect for any occasion.
+The original NESTLE TOLL HOUSE chocolate chip cookie recipe that's been America's favorite for generations.
 
 ## Information
 
 - **Prep Time**: 15 minutes
-- **Cook Time**: 10-12 minutes
-- **Total Time**: 25-27 minutes
+- **Cook Time**: 9-11 minutes
+- **Total Time**: 24-26 minutes
 - **Servings**: 24 cookies
 - **Difficulty**: Easy
 
@@ -19,8 +19,8 @@ A classic chocolate chip cookie recipe that's perfect for any occasion.
 - ¾ cup granulated sugar
 - ¾ cup packed brown sugar
 - 2 large eggs
-- 2 tsp vanilla extract
-- 2 cups chocolate chips
+- 1 tsp vanilla extract
+- 2 cups NESTLE TOLL HOUSE Semi-Sweet Chocolate Morsels
 
 ## Instructions
 
@@ -34,11 +34,11 @@ A classic chocolate chip cookie recipe that's perfect for any occasion.
 
 5. **Combine wet and dry**: Gradually mix in the flour mixture until just combined.
 
-6. **Add chocolate chips**: Stir in chocolate chips until evenly distributed.
+6. **Add chocolate morsels**: Stir in chocolate morsels until evenly distributed.
 
 7. **Shape cookies**: Drop rounded tablespoons of dough onto ungreased cookie sheets, spacing about 2 inches apart.
 
-8. **Bake**: Bake for 10-12 minutes or until golden brown around the edges.
+8. **Bake**: Bake for 9-11 minutes or until golden brown around the edges.
 
 9. **Cool**: Let cool on baking sheet for 2 minutes, then transfer to wire rack.
 
