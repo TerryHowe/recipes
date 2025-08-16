@@ -36,6 +36,6 @@ To add a new recipe to this collection:
 1. Create a new markdown file in the appropriate category folder
 2. Use the recipe template format
 3. Include clear ingredient lists and step-by-step instructions
-4. Add the recipe to the navigation in `mkdocs.yml`
+4. Add the recipe to the navigation in `docs/index.md`
 
 Happy cooking!

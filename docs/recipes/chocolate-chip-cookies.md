@@ -1,6 +1,6 @@
-# NESTLE TOLL HOUSE Chocolate Chip Cookies
+# Nestle Toll House Chocolate Chip Cookies
 
-The original NESTLE TOLL HOUSE chocolate chip cookie recipe that's been America's favorite for generations.
+The original Nestle Toll House chocolate chip cookie recipe that's been America's favorite for generations.
 
 ## Information
 
@@ -20,7 +20,7 @@ The original NESTLE TOLL HOUSE chocolate chip cookie recipe that's been America'
 - ¾ cup packed brown sugar
 - 2 large eggs
 - 1 tsp vanilla extract
-- 2 cups NESTLE TOLL HOUSE Semi-Sweet Chocolate Morsels
+- 2 cups Nestle Semi-Sweet Chocolate Morsels
 
 ## Instructions
 
