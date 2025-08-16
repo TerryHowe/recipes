@@ -28,23 +28,6 @@ Website provided by [Github Pages](https://terryhowe.github.io/recipes/)
    make help
    ```
 
-### Manual Setup
-
-1. Install dependencies:
-   ```bash
-   pip install -r requirements.txt
-   ```
-
-2. Serve the site locally:
-   ```bash
-   mkdocs serve
-   ```
-
-3. Build the static site:
-   ```bash
-   mkdocs build
-   ```
-
 ## Development
 
 ### Available Make Targets
