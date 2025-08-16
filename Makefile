@@ -57,7 +57,7 @@ check: build
 
 deploy: ## Deploy the website to github pages
 	@echo "Deploying documentation..."
-	$(MKDOCS) gh-pages
+	$(MKDOCS) gh-deploy
 
 ##@ Information
 
