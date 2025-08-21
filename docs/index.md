@@ -5,3 +5,5 @@
 * [Getting Started](recipes/getting-started.md)
 * [Italian Sausage](recipes/italian-sausage.md)
 * [Peach Jam](recipes/peach-jam.md)
+* [Trifle](trifle.md)
+* [Jelly Cookies](cookies-jam.md)
