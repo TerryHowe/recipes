@@ -7,3 +7,4 @@
 * [Peach Jam](recipes/peach-jam.md)
 * [Trifle](recipes/trifle.md)
 * [Jelly Cookies](recipes/cookies-jam.md)
+* [Applesauce](recipes/applesauce.md)
