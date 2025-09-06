@@ -1,4 +1,4 @@
-# Slow Cooker Applesause
+# Slow Cooker Applesauce
 
 Simple applesauce recipe done in the slow cooker to make your house smell like Autumn.
 
@@ -19,11 +19,11 @@ Simple applesauce recipe done in the slow cooker to make your house smell like A
 
 2. Optionally, sprinkle a few drops of lemon juice on the apples
 
-3. Combine cinnamon and suger and toss into apples
+3. Combine cinnamon and sugar and toss into apples
 
-5. Stir in 3/4 cup of water
+4. Stir in 3/4 cup of water
 
-6. Cook on high for 3-4 hours or low for 6-7 hours
+5. Cook on high for 3-4 hours or low for 6-7 hours
 
 7. When it's done and cools a bit, puree in the food processor
 
@@ -35,4 +35,4 @@ Simple applesauce recipe done in the slow cooker to make your house smell like A
 
 ## Storage
 
-Store in the refridgerator or freeze
+Store in the refrigerator or freeze
