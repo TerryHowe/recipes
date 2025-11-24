@@ -28,7 +28,7 @@ Very slow cooking helps prevent curdling.
 
 ## Trifle (according to my mom)
 
-**Layers**  
+**Ingredients**  
 - Ladyfingers (stale is better)  
 - Bananas, sliced  
 - Marmalade (not too sweet)  
