@@ -14,7 +14,7 @@ A flavorful homemade breakfast sausage recipe perfect for large batch preparatio
 - 5 teaspoons salt
 - 2½ teaspoons black pepper
 - 5 teaspoons dried sage
-- ½ teaspoon oregano(or marjoram) technically 5/8s tsp
+- 1 teaspoon oregano (or marjoram)
 - 2½ tablespoons brown sugar
 - 5 pinches cloves
 - 5 pinches red pepper flakes (optional, for heat)
