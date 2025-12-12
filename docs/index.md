@@ -6,6 +6,7 @@
 * [Italian Sausage](recipes/italian-sausage.md)
 * [Trifle](recipes/trifle.md)
 * [Jelly Cookies](recipes/cookies-jam.md)
+* [Key Lime Pie](recipes/key-lime-pie.md)
 * [Nestle Toll House Chocolate Chip Cookies](recipes/chocolate-chip-cookies.md)
 * [Sugar Cookies](recipes/sugar-cookies.md)
 * [Peach Jam](recipes/peach-jam.md)
